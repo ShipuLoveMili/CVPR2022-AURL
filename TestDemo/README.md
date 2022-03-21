@@ -2,7 +2,7 @@ This is a Demo to test our AURL model.
 
 # Codes and model of AURL
 ### Descriptions
-The source codes are for evaluating our AURL model, including the inference script "main.py", the network "network.py", the trained **AURL Model** with $$\tau=0.05$$ (i.e., "[AURL662_checkpoint.pth.tar](https://drive.google.com/file/d/1PwwOMGeJ0ccpp-WKXm6H0qnKrEH5LzyY/view?usp=sharing)"), and the results of top-1 accuracy (i.e., "UCF_top1acc.log" and "HMDB_top1acc.log") using 1 video clip under 1 test split protocol on the UCF101 and HMDB51 datasets. These top-1 accuracy results are shown in Table 2 (see AURL (ours)) of the manuscript. 
+The source codes are for evaluating our AURL model, including the inference script "main.py", the network "network.py", the trained **AURL Model** with ![1](http://latex.codecogs.com/svg.latex?\tau=0.05) (i.e., "[AURL662_checkpoint.pth.tar](https://drive.google.com/file/d/1PwwOMGeJ0ccpp-WKXm6H0qnKrEH5LzyY/view?usp=sharing)"), and the results of top-1 accuracy (i.e., "UCF_top1acc.log" and "HMDB_top1acc.log") using 1 video clip under 1 test split protocol on the UCF101 and HMDB51 datasets. These top-1 accuracy results are shown in Table 2 (see AURL (ours)) of the manuscript. 
 
 You can start the codes from the execute command "run.sh". 
 
@@ -16,19 +16,19 @@ nltk_data
 
 AURL662_checkpoint.pth.tar
 ```
-Pytorch and torchvision:
+***Pytorch and torchvision:***
 	*pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html*
 
-GoogleNews-vectors-negative300.bin:
+***GoogleNews-vectors-negative300.bin:***
 	*wget https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz -O /workplace/word2vec/GoogleNews-vectors-negative300.bin.gz*
 	*gunzip -c /workplace/word2vec/GoogleNews-vectors-negative300.bin.gz > /workplace/word2vec/GoogleNews-vectors-negative300.bin*
 
 
-nltk_data:
+***nltk_data:***
 	*pip3 install nltk*
 	*python3 -c "import nltk; nltk.download('wordnet')"*
 
-Download our **AURL Model**: [AURL662_checkpoint.pth.tar](https://drive.google.com/file/d/1PwwOMGeJ0ccpp-WKXm6H0qnKrEH5LzyY/view?usp=sharing)
+***Our AURL Model***: [AURL662_checkpoint.pth.tar](https://drive.google.com/file/d/1PwwOMGeJ0ccpp-WKXm6H0qnKrEH5LzyY/view?usp=sharing)
 ### Dataset
 Please download related datasets: [UCF101](https://www.crcv.ucf.edu/data/UCF101.php), [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
 
