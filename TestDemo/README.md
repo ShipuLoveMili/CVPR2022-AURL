@@ -43,15 +43,15 @@ dataset/
 ```
 
 ### Input and Configs
-***HMDBPath:*** Input the path of the HMDB51 dataset.
+***HMDBPath:*** Input the path of the HMDB51 dataset.    
 ***UCFPath:*** Input the path of the UCF101 dataset.   
-***datasetName:*** Input "UCF" or "HMDB". The evaluation will be implemented on the corresponding dataset.
-***clip_len:*** Number of frames of each sample clip. In the manuscript, we set it as 16.
+***datasetName:*** Input "UCF" or "HMDB". The evaluation will be implemented on the corresponding dataset.    
+***clip_len:*** Number of frames of each sample clip. In the manuscript, we set it as 16.    
 ***n_clips:*** Number of clips per video. In the manuscript, we set it as 1 or 25.  
 ***size:*** Size of the input image. In the manuscript, we set it as 112.   
 ***weights:*** Input the path of the trained AURL model "AURL662_checkpoint.pth.tar".    
 ***wordsmodel:*** Input the path of "GoogleNews-vectors-negative300.bin"  
-***nltkPath:*** Input the path of "nltk_data".
+***nltkPath:*** Input the path of "nltk_data".    
 
 ### Output
 When predicting the class name of an input video, the inference code will print the result as follow:
