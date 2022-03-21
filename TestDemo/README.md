@@ -1,6 +1,6 @@
-This is a Demo to test our AURL model.
 
-# Codes and model of AURL
+
+# This is a Demo to test our AURL model.
 ### Descriptions
 The source codes are for evaluating our AURL model, including the inference script "main.py", the network "network.py", the trained **AURL Model** with ![1](http://latex.codecogs.com/svg.latex?\tau=0.05) (i.e., "[AURL662_checkpoint.pth.tar](https://drive.google.com/file/d/1PwwOMGeJ0ccpp-WKXm6H0qnKrEH5LzyY/view?usp=sharing)"), and the results of top-1 accuracy (i.e., "UCF_top1acc.log" and "HMDB_top1acc.log") using 1 video clip under 1 test split protocol on the UCF101 and HMDB51 datasets. These top-1 accuracy results are shown in Table 2 (see AURL (ours)) of the manuscript. 
 
