@@ -49,7 +49,7 @@ dataset/
 ***clip_len:*** Number of frames of each sample clip. In the manuscript, we set it as 16.
 ***n_clips:*** Number of clips per video. In the manuscript, we set it as 1 or 25.  
 ***size:*** Size of the input image. In the manuscript, we set it as 112.   
-***weights:*** Input the path of the trained AURL model "AURL662_checkpoint.pth.tar".
+***weights:*** Input the path of the trained AURL model "AURL662_checkpoint.pth.tar".    
 ***wordsmodel:*** Input the path of "GoogleNews-vectors-negative300.bin"  
 ***nltkPath:*** Input the path of "nltk_data".
 
