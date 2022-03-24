@@ -2,7 +2,7 @@
 
 # This is a Demo to test our AURL model.
 ### Descriptions
-The source codes are for evaluating our AURL model, including the inference script "main.py", the network "network.py", the trained **AURL Model** with ![1](http://latex.codecogs.com/svg.latex?\tau=0.05) (i.e., "[AURL662_checkpoint.pth.tar](https://drive.google.com/file/d/1PwwOMGeJ0ccpp-WKXm6H0qnKrEH5LzyY/view?usp=sharing)"), and the results of top-1 accuracy (i.e., "UCF_top1acc.log" and "HMDB_top1acc.log") using 1 video clip under 1 test split protocol on the UCF101 and HMDB51 datasets. These top-1 accuracy results are shown in Table 2 (see AURL (ours)) of the manuscript. 
+The source codes are for evaluating our AURL model, including the inference script "main.py", the network "network.py", the trained **AURL Model** with ![1](http://latex.codecogs.com/svg.latex?\tau=0.05) (i.e., "[AURL662_checkpoint.pth.tar](https://drive.google.com/drive/folders/19uZX46EDD8PMG-hca9cyZWXk82_CmAsG?usp=sharing)"), and the results of top-1 accuracy (i.e., "UCF_top1acc.log" and "HMDB_top1acc.log") using 1 video clip under 1 test split protocol on the UCF101 and HMDB51 datasets. These top-1 accuracy results are shown in Table 2 (see AURL (ours)) of the manuscript. 
 
 You can start the codes from the execute command "run.sh". 
 
@@ -28,7 +28,8 @@ AURL662_checkpoint.pth.tar
 	*pip3 install nltk*
 	*python3 -c "import nltk; nltk.download('wordnet')"*
 
-***Our AURL Model***: [AURL662_checkpoint.pth.tar](https://drive.google.com/file/d/1PwwOMGeJ0ccpp-WKXm6H0qnKrEH5LzyY/view?usp=sharing)
+***Our AURL Model***: [AURL662_checkpoint.pth.tar](https://drive.google.com/drive/folders/19uZX46EDD8PMG-hca9cyZWXk82_CmAsG?usp=sharing)    
+Note that, we also provide the trained **AURL Model** with ![1](http://latex.codecogs.com/svg.latex?\tau=0.0) (i.e., "[AURL700_checkpoint.pth.tar](https://drive.google.com/drive/folders/19uZX46EDD8PMG-hca9cyZWXk82_CmAsG?usp=sharing)").
 ### Dataset
 Please download related datasets: [UCF101](https://www.crcv.ucf.edu/data/UCF101.php), [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
 
