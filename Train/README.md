@@ -35,7 +35,7 @@ Please download related datasets:
 
 Data structure:    
 To speed up training, we offline extract all frames of training videos and save them in [lmdb](https://lmdb.readthedocs.io/en/release/) files.    
-The file "/data/generate_imgslmdb.py" is used to generate lmdb files.    
+The file "[/data/generate_imgslmdb.py](https://github.com/ShipuLoveMili/CVPR2022-AURL/blob/main/Train/data/generate_imgslmdb.py)" is used to generate lmdb files.    
 The lmdb Key, class name, and lmdb path of each video are saved in "/data/kinetics_id_exist.txt".
 
 
