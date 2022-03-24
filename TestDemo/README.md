@@ -29,7 +29,7 @@ AURL662_checkpoint.pth.tar
 	*python3 -c "import nltk; nltk.download('wordnet')"*
 
 ***Our AURL Model***: [AURL662_checkpoint.pth.tar](https://drive.google.com/drive/folders/19uZX46EDD8PMG-hca9cyZWXk82_CmAsG?usp=sharing)    
-Note that, we also provide the trained **AURL Model** with ![1](http://latex.codecogs.com/svg.latex?\tau=0.0) (i.e., "[AURL700_checkpoint.pth.tar](https://drive.google.com/drive/folders/19uZX46EDD8PMG-hca9cyZWXk82_CmAsG?usp=sharing)").
+Note that, we also provide the trained **AURL Model** with ![2](http://latex.codecogs.com/svg.latex?\tau=0.0) (i.e., "[AURL700_checkpoint.pth.tar](https://drive.google.com/drive/folders/19uZX46EDD8PMG-hca9cyZWXk82_CmAsG?usp=sharing)").
 ### Dataset
 Please download related datasets: [UCF101](https://www.crcv.ucf.edu/data/UCF101.php), [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
 
