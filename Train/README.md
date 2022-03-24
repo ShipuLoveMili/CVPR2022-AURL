@@ -30,9 +30,10 @@ horovod
 	*python3 -c "import nltk; nltk.download('wordnet')"*
 
 ### Dataset
-Please download related datasets: [Kinetics 700](https://deepmind.com/research/open-source/kinetics), [UCF101](https://www.crcv.ucf.edu/data/UCF101.php), [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
+Please download related datasets:    
+[Kinetics 700](https://deepmind.com/research/open-source/kinetics), [UCF101](https://www.crcv.ucf.edu/data/UCF101.php), [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
 
-Data structure:
+Data structure:    
 To speed up training, we offline extract all frames of training videos and save them in lmdb files.    
 The lmdb Key, class name, and lmdb path of each video are saved in "/data/kinetics_id_exist.txt". 
 
