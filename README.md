@@ -1,8 +1,10 @@
 # CVPR2022-AURL
 This is the implementation of our AURL paper "Alignment-Uniformity aware Representation Learning for Zero-shot Video Classification".
 
-The pipeline is built upon the CVPR 2020 work for your reference: https://github.com/bbrattoli/ZeroShotVideoClassification.    
-If you find the code useful, please cite both AURL and the CVPR 2020 work:
+<!--
+The pipeline is built upon the CVPR 2020 work for your reference: https://github.com/bbrattoli/ZeroShotVideoClassification. 
+-->
+If you find the code useful, please cite our AURL: <!--and the CVPR 2020 work:-->
 ```
 @inproceedings{shi-cvpr22-AURL,
     author    = {Shi Pu, Kaili Zhao, and Mao Zheng}, 
@@ -11,6 +13,7 @@ If you find the code useful, please cite both AURL and the CVPR 2020 work:
     year      = {2022}
 }
 ```
+<!--
 ```
 @inproceedings{brattoli2020rethinking,
   title={Rethinking zero-shot video classification: End-to-end training for realistic applications},
@@ -20,3 +23,4 @@ If you find the code useful, please cite both AURL and the CVPR 2020 work:
   year={2020}
 }
 ```
+-->
