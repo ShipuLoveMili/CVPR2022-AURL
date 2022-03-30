@@ -30,6 +30,6 @@ If you find the code useful, please cite our AURL: <!--and the CVPR 2020 work:--
 }
 ```
 -->
- ## Acknowledgement
+ ## Acknowledgment
  The code of our work is based on the structure of "https://github.com/bbrattoli/ZeroShotVideoClassification".    
  Thanks for the code and training protocol. 
