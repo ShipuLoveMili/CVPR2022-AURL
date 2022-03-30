@@ -1,5 +1,5 @@
 # CVPR2022-AURL
-This is the implementation of our AURL paper "Alignment-Uniformity aware Representation Learning for Zero-shot Video Classification".
+This is the implementation of our AURL paper "[Alignment-Uniformity aware Representation Learning for Zero-shot Video Classification](https://arxiv.org/abs/2203.15381)".
 
 <!--
 The pipeline is built upon the CVPR 2020 work for your reference: https://github.com/bbrattoli/ZeroShotVideoClassification. 
