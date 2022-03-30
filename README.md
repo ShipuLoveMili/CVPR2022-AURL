@@ -1,7 +1,8 @@
 # CVPR2022-AURL
 This is the implementation of our AURL paper "[Alignment-Uniformity aware Representation Learning for Zero-shot Video Classification](https://arxiv.org/abs/2203.15381)".
 
-Results on the UCF-101 dataset: https://paperswithcode.com/sota/zero-shot-action-recognition-on-ucf101    
+Results on the UCF-101 dataset:    
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/alignment-uniformity-aware-representation/zero-shot-action-recognition-on-ucf101)](https://paperswithcode.com/sota/zero-shot-action-recognition-on-ucf101?p=alignment-uniformity-aware-representation)    
 Results on the HMDB-51 dataset: https://paperswithcode.com/sota/zero-shot-action-recognition-on-hmdb51
 
 <!--
