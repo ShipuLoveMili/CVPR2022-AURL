@@ -6,7 +6,7 @@ Results on the UCF-101 dataset:
 Results on the HMDB-51 dataset:    
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/alignment-uniformity-aware-representation/zero-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/zero-shot-action-recognition-on-hmdb51?p=alignment-uniformity-aware-representation)    
 
-
+## Citation
 <!--
 The pipeline is built upon the CVPR 2020 work for your reference: https://github.com/bbrattoli/ZeroShotVideoClassification. 
 -->
@@ -30,3 +30,6 @@ If you find the code useful, please cite our AURL: <!--and the CVPR 2020 work:--
 }
 ```
 -->
+ ## Acknowledgement
+ The code of our work is based on the structure of "https://github.com/bbrattoli/ZeroShotVideoClassification".    
+ Thanks for the code and training protocol. 
