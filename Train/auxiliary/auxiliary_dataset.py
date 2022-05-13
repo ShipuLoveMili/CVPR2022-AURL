@@ -183,6 +183,8 @@ def load_clips_tsn(fname, clip_len=16, n_clips=1, is_validation=False, envdict=N
         frames.append(img_stream)
     #print(img_stream.shape)
     #frame_height, frame_width = img_stream.shape[0], img_stream.shape[1]
+    while len(frames) < clip_len * n_clips:
+       frames = frames + frames[:clip_len]
     return frames
     '''
     while len(frames)< clip_len:
