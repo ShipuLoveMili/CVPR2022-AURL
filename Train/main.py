@@ -192,6 +192,11 @@ model = network.AURL(img_model, words_model)
 model = convert_sync_batchnorm(model)
 model  = model.cuda()
 
+if opt.weights and opt.weights != "none":
+    checkpoint = torch.load(opt.weights)
+    model.load_state_dict(checkpoint['state_dict'])
+    if hvd.rank() == 0:
+       print("LOADED MODEL:  ", opt.weights, 'accuracy: ', checkpoint['accuracy'])
 
 """==========================OPTIM SETUP=================================="""
 optimizer = get_optimizer(
